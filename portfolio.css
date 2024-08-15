@@ -288,7 +288,7 @@ h2
 {
 	display:flex;
 	justify-content:center;
-	column-gap:100px;
+	column-gap:200px;
 }
 .mp
 {
@@ -307,7 +307,7 @@ h2
 .cm
 {
 	text-align:center;
-	padding:30px;
+	padding:20px;
 	font-size:30px;
 }
 .mail
@@ -317,6 +317,7 @@ h2
 	border:1px solid black;
 	background-color:#c2ffd5;
 	justify-content:center;
+	margin-top:10px;
 	padding:50px;
 	border-radius:10%;
 }
@@ -401,11 +402,21 @@ h2
         flex-direction: column;
         align-items: center;
     }
-    .wrk, .ed, .pro1, .mp, .mail
+    .wrk, .ed, .pro1
 	{
         width: 80%;
         margin: 0 auto;
     }
+	.mp, .mail
+	{
+		width:80%;
+		margin:0 auto;
+		height:100%;
+	}
+	.input
+	{
+		width:80%;
+	}
     .personal, .education
 	{
         flex-direction: column;
