@@ -220,7 +220,7 @@ h2
 {
 	display:flex;
 	justify-content:center;
-	column-gap:100px;
+	column-gap:50px;
 }
 .pro1
 {
@@ -229,6 +229,7 @@ h2
 	background-color:#faa2a7;
 	position:relative;
 	overflow:hidden;
+	width:400px;
 }
 .pro1::after
 {
@@ -241,7 +242,7 @@ h2
 	background-color:#85d8ed;
 	background-size:cover;
 	background-repeat:no-repeat;
-	transition: height 0.5s ease;
+	transition: height 1s ease;
 	z-index:1;
 }
 .pro1:hover::after
@@ -410,8 +411,11 @@ h2
 	.mp, .mail
 	{
 		width:80%;
-		margin:0 auto;
-		height:100%;
+		height:100%;	
+	}
+	.mail
+	{
+		margin-top:100px;
 	}
 	.input
 	{
@@ -430,4 +434,8 @@ h2
 	{
         margin-bottom: 10px;
     }
+	.pro1
+	{
+		margin-top:100px;
+	}
 }

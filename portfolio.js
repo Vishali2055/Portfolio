@@ -80,3 +80,14 @@ window.addEventListener("resize", function()
 		document.querySelector("#menu").style.display = "block";
 	}
 });
+
+
+ScrollReveal().reveal('.main', {
+    duration: 2000,      // Duration of the animation in milliseconds (2 seconds)
+    distance: '30px',    // Distance to move the element during the animation
+    origin: 'bottom',    // Direction from which the element will come into view
+    scale: 1.1,          // Scale the element slightly larger during animation
+    opacity: 0,          // Start with opacity 0 (fully transparent) and transition to fully visible
+    reset: true    // Reset the animation each time the element comes into view
+});
+
